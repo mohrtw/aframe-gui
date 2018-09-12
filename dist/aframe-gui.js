@@ -2420,15 +2420,15 @@ AFRAME.registerPrimitive('a-gui-radio', {
 
 AFRAME.registerComponent('gui-slider', {
     schema: {
-        percent: { type: 'number', default: '0.5' },
-        handleOuterRadius: { type: 'number', default: '0.17' },
-        handleInnerRadius: { type: 'number', default: '0.13' },
-        handleOuterDepth: { type: 'number', default: '0.04' },
-        handleInnerDepth: { type: 'number', default: '0.02' },
-        sliderBarHeight: { type: 'number', default: '0.05' },
-        sliderBarDepth: { type: 'number', default: '0.03' },
-        leftRightPadding: { type: 'number', default: '0.25' },
-        topBottomPadding: { type: 'number', default: '0.125' },
+        percent: { type: 'number', default: 0.5 },
+        handleOuterRadius: { type: 'number', default: 0.17 },
+        handleInnerRadius: { type: 'number', default: 0.13 },
+        handleOuterDepth: { type: 'number', default: 0.04 },
+        handleInnerDepth: { type: 'number', default: 0.02 },
+        sliderBarHeight: { type: 'number', default: 0.05 },
+        sliderBarDepth: { type: 'number', default: 0.03 },
+        leftRightPadding: { type: 'number', default: 0.25 },
+        topBottomPadding: { type: 'number', default: 0.125 },
 
         borderColor: { type: 'string', default: key_grey },
         backgroundColor: { type: 'string', default: key_offwhite },
