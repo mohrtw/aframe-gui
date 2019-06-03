@@ -12,6 +12,7 @@ require('./components/button.js');
 require('./components/icon-button.js');
 require('./components/icon-label-button.js');
 require('./components/toggle.js');
+require('./systems/gui-radio.js');
 require('./components/radio.js');
 require('./components/circle-loader.js');
 require('./components/progress-bar.js');
