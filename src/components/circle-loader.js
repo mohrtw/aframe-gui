@@ -1,6 +1,6 @@
 AFRAME.registerComponent('gui-circle-loader', {
     schema: {
-        count: {type: 'number', default: '100'},
+        count: {type: 'number', default: 100},
         fontFamily: {type: 'string', default: 'Arial'},
         fontSize: {type: 'string', default: '150px'},
         fontColor: {type: 'string', default: key_grey},

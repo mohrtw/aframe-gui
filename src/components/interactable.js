@@ -2,7 +2,7 @@ AFRAME.registerComponent('gui-interactable', {
     schema: {
         clickAction: {type: 'string'},
         hoverAction: {type: 'string'},
-        keyCode: {type: 'number', default: null},
+        keyCode: {type: 'number', default: 0},
     },
     init: function () {
         var _this = this;

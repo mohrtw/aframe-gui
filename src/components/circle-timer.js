@@ -1,6 +1,6 @@
 AFRAME.registerComponent('gui-circle-timer', {
     schema: {
-        countDown: {type: 'number', default: '10'},
+        countDown: {type: 'number', default: 10},
         fontFamily: {type: 'string', default: 'Arial'},
         fontSize: {type: 'string', default: '150px'},
         fontColor: {type: 'string', default: key_grey},
